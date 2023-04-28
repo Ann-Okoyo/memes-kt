@@ -13,7 +13,7 @@ class PageFour : AppCompatActivity() {
         btsix.setOnClickListener { val intent= Intent(this,PageFour::class.java);
             startActivity(intent)}
 
-        var btseven: Button = findViewById(R.id.btseven)
+        var btseven: Button = findViewById(R.id.button2)
         btseven.setOnClickListener { val intent= Intent(this,PageFive::class.java);
             startActivity(intent)}
 
